@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.container3{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    height: 68%;
+    background: #e4e2dd;
+    padding: 25px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+ }
+
+ .container3 .title{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 5%;
+    position: relative;
+    text-align: center;
+ }
+
+/* NAME SECTION */
+
+ .container3 form .user-name{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ form .user-name .input-box{
+    margin-bottom: 10px;
+    width: calc(100% / 3 - 15px);
+ }
+
+/* USER DETAILS */
+
+.container3 form .user-details{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ form .user-details .input-box{
+    margin-bottom: 10px;
+    width: calc(100% / 2 - 20px);
+ }
+
+ .user-name .input-box input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #a4a4a4cc;
+    border-bottom-width: 1px;
+    transition: all 0.3s ease;
+    background-color: #e4e2dd;
+ }
+
+ .user-details .phone input{
+    display: flex;
+    height: 30px;
+    width: 105%;
+    outline: none;
+    border-radius: 5px;
+    margin-left: -5%;
+    border: 1px solid #a4a4a4cc;
+    border-bottom-width: 1px;
+    transition: all 0.3s ease;
+    background-color: #e4e2dd;
+ }
+
+ .user-details .phone span{
+    margin-left: -5%;
+ }
+
+ .user-details .phone input:focus{
+    border-color: rgb(0, 0, 0);
+ }
+
+ .user-name .input-box input:focus,
+ .user-name .input-box input:valid{
+    border-color: rgb(0, 0, 0);
+ }
+
+
+ /* SIGN UP BUTTON */
+
+ form .button{
+    height: 30px;
+    margin: 30px 0;
+ }
+
+ form .button input{
+    height: 100%;
+    width: 25%;
+    outline: none;
+    background-color: #2a2625;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-left: 37%;
+ }
+
+ form .button input:hover{
+    opacity: 0.5; 
+ }

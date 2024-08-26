@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.centered-content a {
+    text-decoration: none;
+}
+
+.centered-content img {
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 5px;
+    margin-left: 37%;
+    transition: opacity 0.1s ease;
+}
+
+.centered-content a:hover img {
+    opacity: 0.5; 
+}

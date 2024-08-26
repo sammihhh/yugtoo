@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* Importing the 'Poppins' font from Google Fonts */
+
+#pomodoro-app {
+    width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+    padding: 80px;
+    margin-top: 5%;
+    /* Styling for the Pomodoro app container */
+}
+
+#container {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background: url(./F_BG.png);
+    /* Styling for the container that holds the timer and buttons */
+}
+
+#timer {
+    color: white;
+    font-size: 50px;
+    margin: 10px auto;
+    border: 5px solid #68d9be;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    margin-bottom: 5%;
+    /* Styling for the timer display, which is a circular element */
+}
+
+#time {
+    margin-top: 60px;
+    z-index: 1;
+    position: relative;
+    /* Styling for the time display inside the timer */
+}
+
+#filler {
+    background: #e4e2dd;
+    height: 0px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    /* Styling for the filler element inside the timer, used to display progress */
+}
+
+#buttons button {
+    background: linear-gradient(to right, #04b1d9, #68d9be);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px;
+    width: 90px;
+    margin: 10px 5px;
+    font-size: 12px;
+    height: 50px;
+    border-radius: 50px;
+    /* Styling for the control buttons (e.g., Work, Short Break, Long Break, Stop) */
+}
+
+#buttons button#stop {
+    background: #e53631;
+    /* Styling for the Stop button */
+}
+/* POMODORO */

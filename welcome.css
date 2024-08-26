@@ -1,0 +1,29 @@
+body {
+    background: url(./F_BG.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.p1{
+    font-size: 7em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.447);
+    color: #ffffff;
+}
+
+.p2 {
+
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #008cac, #f24638); /* Adjust the colors as needed */
+    font-size: 5em; /* Adjust the font size as needed */
+    font-weight: bolder;
+}
+
+
